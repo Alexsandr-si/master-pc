@@ -9,6 +9,7 @@ html body {
 body h1, body h2, body h3, body h4 {
     font-family: "Montserrat-Bold";
     text-transform: uppercase;
+    text-align: center;
 }
 body a {
     color: inherit;
@@ -301,18 +302,50 @@ article {
 article h2 {
     text-align: center;
     margin-bottom: 15px;
+    margin-top: 15px;
     font-family: "Montserrat-Regular";
     font-weight: 600;
     letter-spacing: 2px;
 }
-article ul li {
+article h4 {
+    margin: 10px 0;
+    background-color: #e10b18;
+    color: #fff;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+.ul_article li {
     border-bottom: 1px solid #000;
     padding: 10px 0;
     font-size: 16px;
     letter-spacing: 1px;
-    font-weight: bold;
 }
-article ul {
+.ul_article li i {
+    margin-right: 10px;
+    color: #e10b18;
+}
+.ul_article {
     background-color: #f3f2f2;
+     margin-top: 20px;
+    margin-bottom: 20px;
 }
-
+article .small_img {
+    height: 200px;
+    width: 200px;
+}
+article .large_img {
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.top_article article p {
+    padding: 10px;
+    margin: 10px;
+}
+.right_img {
+    float: right;
+}
+.left_img {
+    float: left;
+}

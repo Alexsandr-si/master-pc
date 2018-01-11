@@ -1,9 +1,13 @@
 $(document).ready(function() {
+    
 $(".menu_ul>li").hover(function(){
     $s_width=$(this).innerWidth();
     $(".hidden_menu>li").innerWidth($s_width);
 });
+    
+    $(".popup_img").magnificPopup({type:"image"});
 });
+
 $(window).scroll(function() {
     $('.mov').each(function(){
       var imagePos = $(this).offset().top;
