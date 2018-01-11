@@ -151,6 +151,12 @@ header strong {
    
 }
 /*sections*/
+.master_work, .futures {
+    opacity: 0;
+}
+.master_work .col-md-4, .futures .col-md-4 {
+    animation-delay: 1s;
+}
 .master_work h3, .futures h3 {
     background-color: #24222F;
     color: #fff;
@@ -179,6 +185,7 @@ header strong {
 .services, .form_call_back {
     background-color: #f3f2f2;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 .services h2 {
     text-align: center;
@@ -211,6 +218,9 @@ header strong {
 .form_call_back h3 {
     text-align: center;
     margin-bottom: 15px;
+    font-family: "Montserrat-Regular";
+    font-weight: 600;
+    letter-spacing: 2px;
 }
 .form_call_back i {
     color: #e10b18;
@@ -235,22 +245,24 @@ header strong {
 .form_call_back form button {
     border: none;
     text-align: center;
-    padding: 10px;
+    padding: 12px;
     background-color: #fff;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     color: #e10b18;
     text-transform: uppercase;
 }
 .form_call_back form label {
     text-transform: uppercase;
     margin: 10px 0;
+    letter-spacing: 1px;
 }
 
 footer {
     background-color: #24222F;
     color: #fff;
-    padding: 15px;
+    padding: 20px;
+    font-size: 16px;
 }
 footer .right_side {
     float: right;
