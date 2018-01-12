@@ -7,7 +7,7 @@ html body {
   line-height: 1.42857;
  }
 body h1, body h2, body h3, body h4 {
-    font-family: "Montserrat-Bold";
+    font-family: "Montserrat-Regular";
     text-transform: uppercase;
     text-align: center;
 }
@@ -135,7 +135,6 @@ header strong {
     z-index: 160;
     text-align: right;
     color: #000;
-    border-radius: 0 0 0 8px;
     cursor: pointer;
 }
 .icon_menu i {
@@ -192,7 +191,7 @@ header strong {
     opacity: 0;
 }
 .master_work .col-md-4, .futures .col-md-4 {
-    animation-delay: 1s;
+    animation-delay: 0.8s;
 }
 .master_work h3, .futures h3 {
     background-color: #24222F;
@@ -222,7 +221,6 @@ header strong {
 .services, .form_call_back, .wrap_list {
     background-color: #f3f2f2;
     margin-top: 20px;
-    margin-bottom: 20px;
     padding: 15px;
 }
 .services h2 {
@@ -378,7 +376,7 @@ footer .left_side {
 .sidebar .wrap_sidebar {
     margin-bottom: 40px;
     text-align: center;
-    animation-delay: 1s;
+    animation-delay: 0.8s;
     position: relative;
 }
 .sidebar .wrap_sidebar img {

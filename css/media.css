@@ -32,12 +32,117 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-
+    .not_show_in {
+        display: none;
+    }
+    .fone {
+        padding: 16px 0;
+         margin: 0;
+         float: none;
+         font-size: 15px;
+    }
+    header .normal_row {
+    line-height: normal;
+    }
+    header .logotype {
+        left: 15px;
+    }
+   .top_block .wrap_h1 h1, .top_block_content .wrap_h1 h1 {
+        font-size: 22px;
+        letter-spacing: 0.5px;
+    }
+    .top_block .wrap_h1 p, .top_block_content .wrap_h1 p {
+        font-size: 14px;
+    }
+    .services ul li, .content_section ul li {
+        font-size: 13px;
+    }
+    body h4 {
+        font-size: 16px;
+    }
+    .services h2 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .form_call_back h3 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .form_call_back ul {
+        margin-top: 10px;
+    }
+    .top_block .wrap_h1, .top_block_content .wrap_h1 {
+        top: 88px;
+    }
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+     .not_show_in {
+        display: none;
+    }
+     .fone {
+         padding: 16px 0;
+         margin: 0;
+         margin-top: 10px;
+         float: none;
+         font-size: 15px;
+    }
+    header .normal_row {
+    line-height: normal;
+    }
+     body .top_block .wrap_h1 h1, .top_block_content .wrap_h1 h1 {
+        font-size: 20px;
+        letter-spacing: 0.5px;
+    }
+    .top_block .wrap_h1 p, .top_block_content .wrap_h1 p {
+        font-size: 12px;
+    }
+    .services ul li, .content_section ul li {
+        font-size: 13px;
+        height: 50px;
+    }
+     body h4 {
+        font-size: 16px;
+    }
+    .services h2 {
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+    .form_call_back h3 {
+        font-size: 16px;
+        font-weight: 600;
+    }
+     .form_call_back ul {
+        margin-top: 10px;
+    }
+    header .logotype {
+        left: 0;
+        width: 97%;
+        margin-left: 3%;
+        padding: 10px 0;
+        font-size: 15px;
+    }
+    header .logotype a {
+        margin-right: 35px;
+        margin-top: 0;
+    }
+    footer {
+        font-size: 14px;
+        padding: 10px;
+        margin: 0;
+    }
+    footer .right_side, footer .left_side {
+        width: 100%;
+        float: none;
+        text-align: center;
+        padding-bottom: 3px;
+    }
+    .top_block .wrap_h1, .top_block_content .wrap_h1 {
+        top: 88px;
+    }
+     
 }
 
 /* Custom, iPhone Retina */
