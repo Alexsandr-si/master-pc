@@ -9,7 +9,25 @@
 @media only screen and (max-width : 992px) {
     header {
         font-size: 14px;
+        height: 71px;
     }
+    .menu_nav {
+        opacity: 0;
+    }
+    .icon_menu {
+        opacity: 1;
+    }
+    .top_block .wrap_h1 h1, .top_block_content .wrap_h1 h1 {
+        font-size: 30px;
+        letter-spacing: 1px;
+    }
+    .top_block .wrap_h1, .top_block_content .wrap_h1 {
+        top: 120px;
+    }
+    .top_block {
+        height: 400px;
+    }
+    
 }
 
 /* Small Devices, Tablets */

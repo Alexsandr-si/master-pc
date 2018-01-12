@@ -124,6 +124,27 @@ header strong {
     opacity: 0;
     transition: all 0.5s;
 }
+.icon_menu {
+    opacity: 0;
+    transition: all 0.6s;
+    position: fixed;
+    top: 18px;
+    right: 0;
+    font-size: 36px;
+    background-color: #fff;
+    z-index: 160;
+    text-align: right;
+    color: #000;
+    border-radius: 0 0 0 8px;
+    cursor: pointer;
+}
+.icon_menu i {
+    padding: 8px;
+    margin-left: 3px;
+}
+.icon_menu i:hover {
+    
+}
 /*-------------------top---------------*/
 .top_block {
     width: 100%;
@@ -141,8 +162,10 @@ header strong {
     font-size: 30px;
     border: 4px solid #fff;
     top: 250px;
+    left: 0;
     box-shadow:inset 0 0 0 600px rgba(0,0,0,0.6);
-    width: 1200px;
+    width: 90%;
+    margin-left: 5%;
 }
 .top_block .wrap_h1 h1, .top_block_content .wrap_h1 h1 {
     padding: 0 15px;
