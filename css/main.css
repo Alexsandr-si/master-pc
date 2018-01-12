@@ -108,7 +108,6 @@ header strong {
 .menu_nav .menu_ul .hidden_menu li {
     display: list-item;
     margin: 0;
-    margin-left: -40px;
     color: #24222F;
     background-color: #f3f2f2;
     margin-top: 3px;
@@ -325,7 +324,7 @@ footer .left_side {
 
 .aticle_large {
     background-color: #fff;
-    width: 78%;
+    width: 76%;
     float: left;
     margin-left: 2%;
 }
@@ -348,7 +347,7 @@ footer .left_side {
     box-shadow: 0 0 1px 5px rgba(214,208,208,0.5);
 }
 .sidebar {
-    width: 18%; 
+    width: 20%; 
     margin-right: 2%;
     float: left;
     background-color: #f3f2f2;
@@ -356,9 +355,35 @@ footer .left_side {
 .sidebar .wrap_sidebar {
     margin-bottom: 40px;
     text-align: center;
+    animation-delay: 1s;
+    position: relative;
 }
-.sidebar .wrap_sidebar a {
-    
+.sidebar .wrap_sidebar img {
+    width: 100%;
+}
+.sidebar .wrap_sidebar .button_asidde {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    transition: all 0.5s;
+}
+ .button_asidde button {
+    border: 0;
+    padding: 8px;
+    color: #e10b18;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: #fff;
+    opacity: 0;
+}
+.wrap_sidebar:hover button{
+    opacity: 1;
+    transition: all 0.5s;
+}
+.wrap_sidebar:hover a {
+    opacity: 0.4;
 }
 .content_section ul li i, .last_content ul li i {
     color: #e10b18;
@@ -369,7 +394,7 @@ footer .left_side {
     padding: 20px;
     
 }
-.content_section h4, .last_content .wrap_list h4 {
+.content_section h4, .last_content .aticle_large .wrap_list h4 {
      margin-top: 20px; 
     margin-right: 20px;
     margin-left: 20px;
@@ -390,4 +415,12 @@ footer .left_side {
 .last_content img {
     width: 200px;
     height: 200px;
+}
+.last_content .aticle_large h4 {
+    background-color: #24222F;
+    color: #fff;
+    padding: 10px 0;
+    letter-spacing: 1px;
+    font-family: "Montserrat-Regular";
+    font-weight: 600;
 }
