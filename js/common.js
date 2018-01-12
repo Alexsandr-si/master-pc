@@ -6,6 +6,12 @@ $(".menu_ul>li").hover(function(){
 });
     
     $(".popup_img").magnificPopup({type:"image"});
+    
+    $(".icon_menu").click(function(){
+        $("nav").removeClass("menu_nav");
+        $("header>nav").toggleClass("active_menu");
+        $(".remove_link>a").removeAttr("href");
+    });
 });
 
 $(window).scroll(function() {
