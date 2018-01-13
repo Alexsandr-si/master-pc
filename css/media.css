@@ -11,9 +11,6 @@
         font-size: 14px;
         height: 71px;
     }
-    .menu_nav {
-        opacity: 0;
-    }
     .icon_menu {
         opacity: 1;
     }
@@ -26,6 +23,45 @@
     }
     .top_block {
         height: 400px;
+    }
+    .content_section .aticle_large .large_img {
+    width: 86%;
+    height: 400px;
+    }
+    .wrap_braedcrum, aside {
+        display: none;
+    }
+      .aticle_large {
+        width: 98%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+       .menu_nav .menu_ul li {
+        display: block;
+        width: 100%;
+    }
+    .menu_nav .menu_ul {
+        left: 0; 
+    }
+    .menu_nav .menu_ul li a {
+        margin-right: 10px;
+    }
+    .menu_nav .menu_ul li:first-child {
+        width: 100%;
+    }
+    .menu_nav {
+        text-align: center;
+        display: none;
+    }
+    .menu_nav .menu_ul .hidden_menu {
+    position: relative;
+    margin-top: 10px;
+    opacity: 1;
+    transition: all 0.5s;
+    display: none;
+    }
+    .menu_nav .menu_ul .hidden_menu li {
+        background-color: #fff;
     }
 }
 
@@ -73,9 +109,64 @@
     .top_block .wrap_h1, .top_block_content .wrap_h1 {
         top: 88px;
     }
+    /*-------------------menu-------------------------------------*/
+    .menu_nav .menu_ul li {
+        display: block;
+        width: 100%;
+    }
+    .menu_nav .menu_ul {
+        left: 0; 
+    }
+    .menu_nav .menu_ul li a {
+        margin-right: 10px;
+    }
+    .menu_nav .menu_ul li:first-child {
+        width: 100%;
+    }
+    .menu_nav {
+        text-align: right;
+        display: none;
+    }
+    .menu_nav .menu_ul .hidden_menu {
+    position: relative;
+    margin-top: 10px;
+    opacity: 1;
+    transition: all 0.5s;
+    display: none;
+    }
+    .menu_nav .menu_ul .hidden_menu li {
+        background-color: #fff;
+    }
+    /*-----------content------------------*/
+     .wrap_braedcrum, aside {
+        display: none;
+    }
+    .content_section .aticle_large .large_img {
+    width: 86%;
+    height: 300px;
+    }
+     .content_section .aticle_large h2 {
+        font-size: 24px;
+    }
+    .content_section h4, .last_content .aticle_large .wrap_list h4 {
+        margin: 0 -15px;
+        text-align: center;
+        padding: 10px 5px;
+        letter-spacing: 1.5px;
+        font-weight: 600;
+        line-height: 25px;
+}
+    .content_section .aticle_large h3 {
+        font-size: 20px;
+    }
+    .aticle_large {
+        width: 98%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
 }
 
-/* Extra Small Devices, Phones */
+/* Extra Small Devices, Phones---------------------------------------------------------------*/
 @media only screen and (max-width : 480px) {
      .not_show_in {
         display: none;
@@ -141,7 +232,61 @@
     .top_block .wrap_h1, .top_block_content .wrap_h1 {
         top: 88px;
     }
-     
+    /*-------------------menu-------------------------------------*/
+    .menu_nav .menu_ul li {
+        display: block;
+        width: 100%;
+    }
+    .menu_nav .menu_ul {
+        left: 0; 
+    }
+    .menu_nav .menu_ul li a {
+        margin-right: 10px;
+    }
+    .menu_nav .menu_ul li:first-child {
+        width: 100%;
+    }
+    .menu_nav {
+        text-align: right;
+        display: none;
+    }
+    .menu_nav .menu_ul .hidden_menu {
+    position: relative;
+    margin-top: 10px;
+    opacity: 1;
+    transition: all 0.5s;
+    display: none;
+    }
+    .menu_nav .menu_ul .hidden_menu li {
+        background-color: #fff;
+    }
+    /*-----------content------------------*/
+    .content_section .aticle_large h2 {
+        font-size: 24px;
+    }
+    .content_section h4, .last_content .aticle_large .wrap_list h4 {
+        margin: 0 -15px;
+        text-align: center;
+        padding: 10px 5px;
+        letter-spacing: 1.5px;
+        font-weight: 600;
+        line-height: 25px;
+}
+    .content_section .aticle_large h3 {
+        font-size: 20px;
+    }
+    .wrap_braedcrum, aside {
+        display: none;
+    }
+    .aticle_large {
+        width: 98%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .content_section .aticle_large .large_img {
+    width: 86%;
+    height: 250px;
+    }
 }
 
 /* Custom, iPhone Retina */

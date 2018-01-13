@@ -8,9 +8,16 @@ $(".menu_ul>li").hover(function(){
     $(".popup_img").magnificPopup({type:"image"});
     
     $(".icon_menu").click(function(){
-        $("nav").removeClass("menu_nav");
-        $("header>nav").toggleClass("active_menu");
+        $(".menu_nav").slideToggle(200);
         $(".remove_link>a").removeAttr("href");
+        $(".menu_ul li").click(function(){
+            $sssd=$(this).children(".hidden_menu");
+            $($sssd).show(200);
+        });
+        $(".hidden_menu").mouseleave(function(){
+            $(".hidden_menu").hide(200);
+        });
+        
     });
 });
 
@@ -18,7 +25,7 @@ $(window).scroll(function() {
     $('.mov').each(function(){
       var imagePos = $(this).offset().top;
       var topOfWindow = $(window).scrollTop();
-      if (imagePos < topOfWindow+550) {
+      if (imagePos < topOfWindow+950) {
         $(this).addClass('fadeInUp');
         $(".master_work").css("opacity", "1");
       }
@@ -28,7 +35,7 @@ $(window).scroll(function() {
     $('.mov1').each(function(){
       var imagePos = $(this).offset().top;
       var topOfWindow = $(window).scrollTop();
-      if (imagePos < topOfWindow+550) {
+      if (imagePos < topOfWindow+950) {
         $(this).addClass('fadeInUp');
         $(".futures").css("opacity", "1");
       }
