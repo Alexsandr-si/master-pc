@@ -70,11 +70,12 @@
     .not_show_in {
         display: none;
     }
-    .fone {
+    header .fone {
         padding: 16px 0;
-         margin: 0;
-         float: none;
-         font-size: 15px;
+        padding-right: 60px;
+        margin: 0;
+        font-size: 15px;
+        text-align: right;
     }
     header .normal_row {
     line-height: normal;
@@ -171,12 +172,11 @@
      .not_show_in {
         display: none;
     }
-     .fone {
+     header .fone {
          padding: 16px 0;
          margin: 0;
          margin-top: 10px;
-         float: none;
-         font-size: 15px;
+         text-align: center;
     }
     header .normal_row {
     line-height: normal;
