@@ -21,7 +21,7 @@
     .top_block .wrap_h1, .top_block_content .wrap_h1 {
         top: 120px;
     }
-    .top_block {
+    .top_block, .top_block_content {
         height: 400px;
     }
     .content_section .aticle_large .large_img {
@@ -40,11 +40,14 @@
         display: block;
         width: 100%;
     }
+    .menu_nav .menu_ul .last_item {
+        width: 100%;
+    }
     .menu_nav .menu_ul {
         left: 0; 
     }
     .menu_nav .menu_ul li a {
-        margin-right: 10px;
+       padding-right: 10px;
     }
     .menu_nav .menu_ul li:first-child {
         width: 100%;
@@ -52,6 +55,11 @@
     .menu_nav {
         text-align: center;
         display: none;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #fff;
+        position: fixed;
+        top: 60px;
+        left: 0;
     }
     .menu_nav .menu_ul .hidden_menu {
     position: relative;
@@ -111,15 +119,8 @@
         top: 88px;
     }
     /*-------------------menu-------------------------------------*/
-    .menu_nav .menu_ul li {
-        display: block;
-        width: 100%;
-    }
     .menu_nav .menu_ul {
         left: 0; 
-    }
-    .menu_nav .menu_ul li a {
-        margin-right: 10px;
     }
     .menu_nav .menu_ul li:first-child {
         width: 100%;
@@ -127,6 +128,11 @@
     .menu_nav {
         text-align: right;
         display: none;
+        position: fixed;
+        top: 60px;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #fff;
     }
     .menu_nav .menu_ul .hidden_menu {
     position: relative;
@@ -172,6 +178,10 @@
      .not_show_in {
         display: none;
     }
+    .services h4 {
+        margin-left: -12%;
+        margin-right: -12%;
+    }
      header .fone {
          padding: 16px 0;
          margin: 0;
@@ -188,9 +198,12 @@
     .top_block .wrap_h1 p, .top_block_content .wrap_h1 p {
         font-size: 12px;
     }
-    .services ul li, .content_section ul li {
-        font-size: 13px;
-        height: 50px;
+      .content_section ul {
+        padding: 0;
+    }
+    .services ul li, .content_section ul li, .last_content ul li {
+        font-size: 14px;
+        height: auto;
     }
      body h4 {
         font-size: 16px;
@@ -199,6 +212,8 @@
         font-size: 16px;
         font-weight: 600;
         letter-spacing: 1px;
+        margin-left: -12%;
+        margin-right: -12%;
     }
     .form_call_back h3 {
         font-size: 16px;
@@ -217,6 +232,7 @@
     header .logotype a {
         margin-right: 35px;
         margin-top: 0;
+        letter-spacing: -0.5px;
     }
     footer {
         font-size: 14px;
@@ -233,29 +249,21 @@
         top: 88px;
     }
     /*-------------------menu-------------------------------------*/
-    .menu_nav .menu_ul li {
-        display: block;
-        width: 100%;
-    }
     .menu_nav .menu_ul {
         left: 0; 
     }
     .menu_nav .menu_ul li a {
-        margin-right: 10px;
+        padding-right: 10px;
     }
     .menu_nav .menu_ul li:first-child {
         width: 100%;
     }
-    .menu_nav {
-        text-align: right;
-        display: none;
-    }
     .menu_nav .menu_ul .hidden_menu {
-    position: relative;
-    margin-top: 10px;
-    opacity: 1;
-    transition: all 0.5s;
-    display: none;
+        position: relative;
+        margin-top: 10px;
+        opacity: 1;
+        transition: all 0.5s;
+        display: none;
     }
     .menu_nav .menu_ul .hidden_menu li {
         background-color: #fff;
@@ -268,9 +276,10 @@
         margin: 0 -15px;
         text-align: center;
         padding: 10px 5px;
-        letter-spacing: 1.5px;
+        letter-spacing: 0.5px;
         font-weight: 600;
         line-height: 25px;
+        font-size: 16px;
 }
     .content_section .aticle_large h3 {
         font-size: 20px;
