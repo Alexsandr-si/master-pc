@@ -6,7 +6,7 @@ html body {
   position: relative;
   line-height: 1.42857;
  }
-body h1, body h2, body h3, body h4 {
+body h1, body h2, body h3, body h4, body h5 {
     font-family: "Montserrat-Regular";
     text-transform: uppercase;
     text-align: center;
@@ -126,7 +126,6 @@ header strong {
 .menu_nav .menu_ul .hidden_menu {
     position: absolute;
     margin-top: 10px;
-    left: 9999;
     opacity: 0;
     transition: all 0.5s;
 }
@@ -398,7 +397,7 @@ footer .left_side {
     color: #e10b18;
     letter-spacing: 1px;
     text-transform: uppercase;
-    background-color: #fff;
+    background-color: #f3f2f2;
     opacity: 0;
 }
 .wrap_sidebar:hover button{
